@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
   final extiloTexto = TextStyle(fontSize: 35);
+  final conteo = 10;
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +20,7 @@ class HomePage extends StatelessWidget {
               style: extiloTexto,
             ),
             Text(
-              '0',
+              '$conteo',
               style: extiloTexto,
             ),
           ],
